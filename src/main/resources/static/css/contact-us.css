@@ -1,0 +1,69 @@
+.jumbotron {
+  min-height: 35vh;
+  background-image: url("/images/background/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.jumbotron::after {
+  content: "";
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.jumbotron h2 {
+  font-size: 3rem;
+  color: #ffc107;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 999;
+}
+
+.contact {
+  width: 500px;
+  margin-right: 40px;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.social-media {
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.social-media ul {
+  height: 100%;
+  padding: 0;
+}
+
+.social-media li {
+  background-color: rgb(250, 250, 250);
+  border-radius: 10px;
+  padding: 20px 50px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.social-media i {
+  font-size: 1.5rem !important;
+  margin-right: 10px;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .contact {
+    width: 100%;
+    margin-right: auto;
+  }
+}

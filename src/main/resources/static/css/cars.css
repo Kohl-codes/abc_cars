@@ -1,0 +1,67 @@
+.sidebar-car {
+  border-radius: 6px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  height: max-content;
+}
+
+.sidebar-car ul {
+  padding: 0;
+}
+
+.sidebar-car li {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 6px 20px;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.sidebar-car a {
+  text-decoration: none;
+  color: #213547;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  appearance: textfield;
+}
+
+.sidebar-car button {
+  width: 100%;
+}
+
+/* Search */
+#searchForm {
+  width: 100%;
+}
+
+#searchForm input {
+  padding: 10px 24px;
+  border-right: none;
+  border-radius: 8px 0px 0px 8px;
+}
+
+#searchForm button {
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 0px 8px 8px 0px;
+}
+
+/* Car List */
+.car-list {
+  width: 100%;
+}
+
+.card {
+  height: 100%;
+}
+
+/* CAR DETAILS */
+.car-image img {
+  border-radius: 8px;
+}

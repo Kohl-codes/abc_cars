@@ -1,0 +1,90 @@
+.jumbotron {
+  min-height: 80vh;
+  background-image: url("/images/car/home.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.jumbotron::after {
+  content: "";
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.jumbotron-content {
+  width: 100%;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+
+#searchForm {
+  width: 100%;
+}
+
+#searchForm input {
+  padding: 10px 24px;
+  border-right: none;
+  border-radius: 8px 0px 0px 8px;
+}
+
+#searchForm button {
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.jumbotron-text {
+  padding-top: 80px;
+}
+
+.jumbotron-text h2 {
+  font-size: 3rem;
+  color: #ffc107;
+}
+
+.jumbotron-text p {
+  font-size: 1.1rem;
+  color: #dddddd;
+}
+
+.jumbotron-content .btn-search {
+  padding: 10px 50px;
+}
+
+/* CARD */
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  height: 220px;
+}
+
+/* SELL YOUR CAR */
+.sell-your-car {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  background-color: #86001f;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sell-your-car h3,
+.sell-your-car p {
+  color: white;
+}
+
+@media (min-width: 1200px) {
+  .jumbotron-text h2 {
+    font-size: 3.5rem;
+  }
+}
