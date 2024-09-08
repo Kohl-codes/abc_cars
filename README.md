@@ -1,53 +1,32 @@
-# ABC-Cars-Portal
 
-A website application that offers a marketplace for buying and selling used
-cars. It allows users to browse a wide selection of pre-owned vehicles and
-place bids on cars they are interested in, providing them with the potential to
-purchase a vehicle at a lower price.
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java Icon" width="100" height="100"/>
+</p>
 
-## Project Overview
+<p align="center">
+  <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/Dependency-Spring%20Boot-brightgreen.svg" alt="Spring Boot"></a>
+  <a href="https://spring.io/projects/spring-security"><img src="https://img.shields.io/badge/Dependency-Spring%20Security-red.svg" alt="Spring Security"></a>
+  <a href="https://spring.io/projects/spring-data-jpa"><img src="https://img.shields.io/badge/Dependency-Spring%20Data%20JPA-blue.svg" alt="Spring Data JPA"></a>
+  <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/Dependency-MySQL-orange.svg" alt="MySQL"></a>
+  <a href="https://tomcat.apache.org/"><img src="https://img.shields.io/badge/Dependency-Tomcat%20Embed%20Jasper-purple.svg" alt="Tomcat Embed Jasper"></a>
+  <a href="https://jstl.java.net/"><img src="https://img.shields.io/badge/Dependency-JSTL-yellow.svg" alt="JSTL"></a>
+</p>
 
-**There are 2 types of users in this Used Cars Sales portal. They are**
+<h1 align="center">💼 ABC Cars Sales Portal</h1>
 
-1.  Users
-2.  Administrator
+This is a Java Spring Boot-based web application for managing car sales. The portal allows users to view, manage, and purchase cars, with secure authentication and various features.
 
-**Users should be able to perform following functions in the portal**
+## ✨ Features
 
-1.  Register in the Portal
-2.  Login to the Portal
-3.  Post a Car for Sale along with Picture upload
-4.  Deactivate an Existing car sale
-5.  Update their Profile after logging in.
-6.  Book an appointment for test drive
-7.  Post the bidding price
+- 🏷️ **Car Listings**: View detailed car listings with specifications and prices.
+- 🔒 **User Authentication**: Secure login and registration system using Spring Security.
+- 💼 **Admin Management**: Admin functionalities for adding, updating, and removing cars.
+- 🧮 **Real-Time Calculations**: Manage purchases with live price calculations.
 
-**Administrators should be able to perform the following functions in the
-portal**
+## 🛠️ Technologies Used
+<p align="center"> <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Language-Java-red.svg" alt="Java"></a> <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/Framework-Spring%20Boot-brightgreen.svg" alt="Spring Boot"></a> <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/Database-MySQL-blue.svg" alt="MySQL"></a> <a href="https://jsp.java.net/"><img src="https://img.shields.io/badge/Template-JSP-orange.svg" alt="JSP"></a> </p>
 
-1.  Register in the Portal
-2.  Login to the portal
-3.  View List of Registered Users
-4.  Mark a User as Administrator
-5.  Activate / Deactivate a Car post
-6.  Update their profile
-7.  Approve or deny the users appointment based on the bidding
-8.  Transact the sales if price is right
-
-**Both Users & Administrator**
-
-1.  Visit Home Page
-2.  View Car Listing
-3.  Search for a Car by Make, Model, Registration Year & Price Range
-4.  About Us Page
-5.  Contact Us Page
-
-## Technologies Used & System Requirements
-
-Backend : Java SE 11, MySQL 8, Spring Boot, Spring Security <br/>
-Frontend : JSP (Jakarta Server Page), JavaScript, Bootstrap <br/>
-
-## HOW TO RUN
+## 🚀 Quick Start
 
 1. **Import Existing Project into Visual Studio Code** <br/>
 2. **Create MySQL database**
@@ -66,32 +45,7 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 
 4. **Run Java Application and open [http://localhost:8080](http://localhost:8080)**
 
-## Screenshot
-
-<p>Home Page</p>
-<img src="./images/home.png" alt="home_page" width="50%"/>
-<p>Login</p>
-<img src="./images/login.png" alt="login" width="50%"/>
-<p>Profile page</p>
-<img src="./images/profile.png" alt="profile" width="50%"/>
-<p>Cars Page</p>
-<img src="./images/cars.png" alt="cars" width="50%"/>
-<p>Car Detail Page</p>
-<img src="./images/car-detail.png" alt="car_detail" width="50%"/>
-<p>Post Car</p>
-<img src="./images/post-car.png" alt="post_car" width="50%"/>
-<p>Bid Car</p>
-<img src="./images/place-bid.png" alt="bid_car" width="50%"/>
-<p>Test Drive</p>
-<img src="./images/test-drive.png" alt="test_drive" width="50%"/>
-<p>Appointment</p>
-<img src="./images/appointment.png" alt="appointment" width="50%"/>
-<p>My Posted Car</p>
-<img src="./images/my-posted-car.png" alt="my_posted_car" width="50%"/>
-<p>About Page</p>
-<img src="./images/about.png" alt="about" width="50%"/>
-<p>Contact Page</p>
-<img src="./images/contact.png" alt="contact" width="50%"/>
-<p>Admin Pages</p>
-<img src="./images/admin.png" alt="admin" width="50%"/>
-<img src="./images/admin2.png" alt="admin" width="50%"/>
+## Authors
+ ✍️ **Nichole Orador**
+ 
+Feel free to explore and contribute to enhance this application! Its still in its draft stage. 
